@@ -2,6 +2,7 @@
   "name": "electron-react-app",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
   "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
@@ -42,13 +43,16 @@
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
+    "@tailwindcss/postcss": "^4.1.10",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
     "concurrently": "^9.2.0",
     "cross-env": "^7.0.3",
     "electron": "^36.5.0",
@@ -57,6 +61,8 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.10",
     "vite": "^6.3.5",
     "wait-on": "^8.0.3"
   }
